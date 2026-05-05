@@ -25,13 +25,21 @@ group by
 GO
 
 -- CATEGORY REVENUE VIEW
-Create view vw_category_revenue as
-select
-	p.product_category_name,
-	sum(oi.price + oi.freight_value) AS revenue
-from dbo.order_items oi
-join dbo.products p 
-    on oi.product_id = p.product_id
-group by p.product_category_name;
+CREATE VIEW vw_category_revenue AS
+SELECT
+    c.product_category_english,
+    SUM(oi.price + oi.freight_value) AS revenue
+FROM order_items oi
+JOIN products p 
+    ON oi.product_id = p.product_id
+JOIN category_translation c
+    ON p.product_category_name = c.product_category_name
+GROUP BY c.product_category_english;
+
 
 select*from view_monthly_rev
+select*from view_rev
+select*from vw_category_revenue
+
+
+
