@@ -1,52 +1,53 @@
-\# E-commerce Revenue Intelligence \& Customer Insights
+# E-commerce Revenue Intelligence \& Customer Insights
 
 
 
-\## Project Overview
+## Project Overview
 
 This project analyzes an e-commerce dataset to uncover key business insights related to revenue, customer behavior, and product performance.
-
-
-
 The goal is to build an end-to-end analytics pipeline using SQL and visualize insights through an interactive dashboard.
 
+##  Exploratory Data Analysis (EDA)
+
+Performed exploratory data analysis to understand data distribution, identify patterns, and detect anomalies before building KPIs and dashboards.
+
+### Key EDA Steps:
+- Checked missing values and handled nulls appropriately  
+- Analyzed order distribution over time  
+- Explored customer and order relationships  
+- Examined price and freight value distributions  
+- Identified inconsistencies in product categories  
+
+### Key Observations:
+- Data contained missing values in delivery-related columns  
+- Revenue distribution was skewed with some high-value orders  
+- Certain product categories dominated order volume  
+- Temporal trends indicated growth in orders over time  
 
 
-\---
+## Objectives
 
+- Analyze revenue trends over time  
 
+- Identify top-performing product categories  
 
-\## Objectives
+- Evaluate customer purchasing behavior  
 
-\- Analyze revenue trends over time  
-
-\- Identify top-performing product categories  
-
-\- Evaluate customer purchasing behavior  
-
-\- Track business growth and key KPIs  
-
-
-
-\---
-
-
-
-\## Tech Stack
-
-\- Python (Pandas) – Data Cleaning  
-
-\- SQL Server – Data Analysis \& KPI Creation  
-
-\- Tableau – Data Visualization \& Dashboard  
-
-
-
-\---
+- Track business growth and key KPIs  
 
 
 
-\## Project Structure
+## Tech Stack
+
+- Python (Pandas) – Data Cleaning  
+
+- SQL Server – Data Analysis \& KPI Creation  
+
+- Tableau – Data Visualization \& Dashboard  
+
+
+
+## Project Structure
 
 ecommerce-revenue-intelligence-customer-insights/
 
@@ -64,27 +65,15 @@ ecommerce-revenue-intelligence-customer-insights/
 
 
 
-
-
-\---
-
-
-
-\## Tableau Dashboard
+## Tableau Dashboard
 
 Explore the interactive dashboard:
-
-
 
 \[View Dashboard](https://public.tableau.com/app/profile/muskan.choudhary4136/viz/E-CommerceRevenueIntelligenceOlistBrazil/RevenueOverview?publish=yes)
 
 
 
-\---
-
-
-
-\## Key Insights
+## Key Insights
 
 \- Revenue shows consistent growth with seasonal peaks  
 
@@ -95,12 +84,7 @@ Explore the interactive dashboard:
 \- Delivery performance impacts customer experience  
 
 
-
-\---
-
-
-
-\##  Key KPIs
+##  Key KPIs
 
 \- Total Revenue  
 
@@ -114,11 +98,7 @@ Explore the interactive dashboard:
 
 
 
-\---
-
-
-
-\## Data Pipeline
+## Data Pipeline
 
 1\. Raw data cleaning using Python  
 
@@ -129,12 +109,7 @@ Explore the interactive dashboard:
 4\. Visualization and dashboarding in Tableau  
 
 
-
-\---
-
-
-
-\## How to Run
+## How to Run
 
 1\. Clone the repository  
 
@@ -146,11 +121,7 @@ Explore the interactive dashboard:
 
 
 
-\---
-
-
-
-\## Author
+## Author
 
 Muskan Choudhary
 
