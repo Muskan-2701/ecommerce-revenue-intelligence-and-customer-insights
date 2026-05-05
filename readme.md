@@ -69,7 +69,7 @@ ecommerce-revenue-intelligence-customer-insights/
 
 Explore the interactive dashboard:
 
-\[View Dashboard](https://public.tableau.com/app/profile/muskan.choudhary4136/viz/E-CommerceRevenueIntelligenceOlistBrazil/RevenueOverview?publish=yes)
+[View Dashboard](https://public.tableau.com/app/profile/muskan.choudhary4136/viz/E-CommerceRevenueIntelligenceOlistBrazil/RevenueOverview?publish=yes)
 
 
 
